@@ -100,7 +100,7 @@ async function main() {
   }
 
   // === SẮP XẾP THEO QUANTITY GIẢM DẦN ===
-  balances.sort((a, b) => b.quantity - a.quantity);
+  balances.sort((a, b) => a.quantity - b.quantity);
 
   console.log("📦 NFT ERC-1155 bạn đang sở hữu (sắp xếp theo Quantity giảm dần):");
   console.table(balances);
