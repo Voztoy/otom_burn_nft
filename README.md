@@ -38,6 +38,7 @@ Cài Node js
 Run the script
 
    ```bash
+   node --max-old-space-size=4096 checknft.js
    node checknft.js
    ```
 Kết quả đẻ ra 3 file: 
